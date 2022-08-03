@@ -1,8 +1,20 @@
 .nav {
   grid-area: n;
   background: cadetblue;
+  padding: 20px;
+}
+
+.nav div {
+  margin-bottom: 5px;
 }
 
 .item {
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.active {
+  color: gold;
+  text-decoration: none;
 }
